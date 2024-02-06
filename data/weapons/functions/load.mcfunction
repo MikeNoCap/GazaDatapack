@@ -1,0 +1,1 @@
+tellraw @a {"text": "Miklath Industries sine våpen systemer er up and running!", "bold": true, "color": "green"}
