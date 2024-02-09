@@ -1,6 +1,7 @@
 {
     "values": [
         "weapons:tick",
-        "weapons:icbm_tick"
+        "weapons:icbm_tick",
+        "weapons:glock/glock_tick"
     ]
 }

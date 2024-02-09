@@ -1,0 +1,1 @@
+team join NoCollision @a[team=!NoCollision] 
