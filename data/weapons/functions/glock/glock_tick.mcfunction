@@ -4,7 +4,7 @@ execute as @a[scores={HoldingGlock=1}] at @s run tp @e[tag=punch_bag, distance=.
 
 
 
-execute as @e[tag=punch_bag] if data entity @s {HurtTime:10s} as @a[scores={HoldingGlock=1}, limit=1] run function weapons:glock/fire
+execute as @e[tag=punch_bag] at @s if data entity @s {HurtTime:10s} as @a[scores={HoldingGlock=1}, limit=1, sort=nearest] run function weapons:glock/fire
 
 
 
