@@ -8,4 +8,5 @@ execute as @e[tag=punch_bag] if data entity @s {HurtTime:10s} as @a[scores={Hold
 
 
 
-execute as @e[tag=bullet] at @s run tp @s ^ ^ ^1
+execute as @e[tag=bullet] at @s run tp @s ^ ^ ^2
+execute as @e[tag=bullet] at @s run kill @p[distance=..2]
