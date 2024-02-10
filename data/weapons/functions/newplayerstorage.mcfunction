@@ -1,0 +1,1 @@
+$execute positioned 69 280 69 run setblock ~ ~ ~$(id) chest
