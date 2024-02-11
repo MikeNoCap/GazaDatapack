@@ -14,4 +14,4 @@ execute as @e[tag=bullet] at @s rotated as @s unless block ^ ^ ^-0.5 air run kil
 
 
 execute as @e[tag=bullet] at @s run tp @s ^ ^ ^2
-execute as @e[tag=bullet] at @s as @e[distance=..2, limit=1, sort=nearest, type=!block_display] at @s run function weapons:glock/kill
+execute as @e[tag=bullet] at @s as @e[distance=..2, limit=1, sort=nearest, type=!block_display] unless entity @s[type=item] at @s run function weapons:glock/kill
