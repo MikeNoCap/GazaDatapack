@@ -1,5 +1,7 @@
 scoreboard objectives add HoldingGlock dummy "HoldingGlock"
-scoreboard objectives add FiringGlock used:crossbow "FiringGlock"
+scoreboard objectives add HoldingRpg dummy "HoldingRpg"
+
+scoreboard objectives add FiringWeapon used:crossbow "FiringWeapon"
 team add NoCollision "NoCollision"
 team modify NoCollision collisionRule never
 team modify NoCollision seeFriendlyInvisibles false
