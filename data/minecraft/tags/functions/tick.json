@@ -3,6 +3,8 @@
         "weapons:tick",
         "weapons:icbm_tick",
         "weapons:glock/tick",
-        "weapons:rpg/tick"
+        "weapons:rpg/tick",
+        "payments:tick",
+        "payments:terminal_east_tick"
     ]
 }

@@ -1,5 +1,6 @@
 {
     "values": [
-        "weapons:load"
+        "weapons:load",
+        "payments:load"
     ]
 }
