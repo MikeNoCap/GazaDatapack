@@ -8,7 +8,7 @@ $execute store result storage minecraft:facestr res int 1 run data modify storag
 execute if data storage minecraft:facestr {res: 0} run say "South"
 
 $execute store result storage minecraft:facestr res int 1 run data modify storage minecraft:facestr west set value $(facing)
-execute if data storage minecraft:facestr {res: 0} run say "West"
+$execute if data storage minecraft:facestr {res: 0} positioned $(x) $(y) $(z) run function payments:terminal_west {x: $(x), y: $(y), z: $(z), to: $(to)}
 
 # Reset directions
 data merge storage minecraft:facestr {res: 0, east: "east", west: "west", north: "north", south: "south"}

@@ -5,6 +5,8 @@
         "weapons:glock/tick",
         "weapons:rpg/tick",
         "payments:tick",
-        "payments:terminal_east_tick"
+        "payments:terminal_east_tick",
+        "payments:terminal_west_tick"
+
     ]
 }

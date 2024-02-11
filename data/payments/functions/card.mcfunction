@@ -1,1 +1,1 @@
-give @a minecraft:book{Enchantments: [{}], display: {Name:'[{"text":"Debt card","italic":false,"color":"blue"}]',Lore:['[{"text":"Miklath\'s debt card","italic":false}]']}} 1
+$give @s minecraft:book{Enchantments: [{}], display: {Name:'[{"text":"Debit card","italic":false,"color":"blue"}]',Lore:['[{"text":"$(owner)\'s debit card","italic":false}]']}, debitCard: 1b, account: "$(account)"} 1
